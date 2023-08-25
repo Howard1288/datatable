@@ -7,7 +7,7 @@ const context = canvas.getContext('2d');
 
 
 const chartVentas = new Chart(context, {
-    type : 'pie',
+    type : 'line',
     data : {
         labels : [],
         datasets : [

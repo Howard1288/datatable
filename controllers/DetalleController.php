@@ -39,7 +39,7 @@ class DetalleController
     public static function estadistica2(Router $router)
     {
         if (isset($_SESSION['auth_user'])) {
-            $router->render('clientes/estadistica', []);
+            $router->render('clientes/estadistica2', []);
         } else {
             header('Location: /datatable/');
         }
